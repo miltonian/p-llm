@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "bin": {
     "p-llm": "dist/index.js"
@@ -19,6 +20,6 @@
     "openai": "^4.85.4"
   },
   "devDependencies": {
-    "typescript": "^4.9.5"
+    "typescript": "^5.7.3"
   }
 }
