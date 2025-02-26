@@ -5,8 +5,7 @@
     "outDir": "dist",
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "types": ["node"]
+    "skipLibCheck": true
   },
   "include": ["./*.ts"]
 }
