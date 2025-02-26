@@ -4,8 +4,9 @@
     "module": "CommonJS",
     "outDir": "dist",
     "esModuleInterop": true,
+    "resolveJsonModule": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "types": ["node"]
   },
   "include": ["./*.ts"]
 }
