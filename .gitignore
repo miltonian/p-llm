@@ -1,6 +1,7 @@
 node_modules
 .qodo
-dist
 build
 .env
 .cli-history.json
+
+npx ts-node https://raw.githubusercontent.com/miltonian/p-llm/refs/heads/main/index.ts compare
