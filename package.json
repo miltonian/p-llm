@@ -17,9 +17,8 @@
     "@aws-sdk/client-dynamodb": "^3.751.0",
     "commander": "^2.20.3",
     "inquirer": "^12.4.2",
-    "openai": "^4.85.4"
-  },
-  "devDependencies": {
+    "node": "^18.20.7",
+    "openai": "^4.85.4",
     "@types/node": "^22.13.5",
     "typescript": "^5.7.3"
   }
