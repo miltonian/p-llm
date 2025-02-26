@@ -1,0 +1,24 @@
+{
+  "name": "p-llm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "bin": {
+    "p-llm": "dist/cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.751.0",
+    "commander": "^2.20.3",
+    "inquirer": "^12.4.2",
+    "openai": "^4.85.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
