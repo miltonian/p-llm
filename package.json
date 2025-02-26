@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm install && npm run build"
   },
   "bin": {
     "p-llm": "dist/index.js"
