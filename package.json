@@ -7,7 +7,7 @@
     "build": "tsc"
   },
   "bin": {
-    "p-llm": "dist/cli.js"
+    "p-llm": "dist/index.js"
   },
   "author": "",
   "license": "ISC",
